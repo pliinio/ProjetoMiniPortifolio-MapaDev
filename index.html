@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scroll.css">
+    <script src="https://kit.fontawesome.com/b5718073e0.js" crossorigin="anonymous"></script>
+
+    <title>Portfólio Digital</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/Capturar.jpeg" alt="perfil">
+            <h1 class="nome">Plinio Lima</h1>
+            <h2 class="cargo">Desenvolvedor Junior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre">
+                    <img src="./src/imagens/computador.gif" alt="ícone do sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas"> 
+                <div class="informacao selecionado" id="informacao-sobre">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Plinio, seja bem-vindo(a)</p>
+
+                        <p>
+                            Sou determinado, observador e criativo, e adoro trabalhar em projetos como este.
+                            Estudante de <span>Engenharia de Computação</span> no Instituto Federal da Paraíba (IFPB), pretendo desenvolver projetos, 
+                            pesquisas e conhecimentos em geral, a fim de construir uma carreira. Meus principais hobbies são jogar jogos variados, ouvir música e tocar violão. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+                    
+                    <ul class="redes-sociais">
+                        <li><a href="https://drive.google.com/file/d/1imnNEMH2LuiyR4RZeTbogMn29sFY6FK5/view?usp=share_link" target="_blank" class="Curriculo">Currículo</a></li>
+                        <li><a href="https://github.com/pliinio" target="_blank" class="Github">Github</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
